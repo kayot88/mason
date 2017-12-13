@@ -3,14 +3,14 @@ body{
 }
 .wrapper{
 	width: 80%;
-	margin: 0 auto;
+	margin: 0 100px;
+	padding-right: 20px;
 }
-.main-grid{
-	margin-top: 50px;
-	/*display: grid;*/
-}
+
 .aside-container{
 	position: fixed;
+	margin-right: 20px;	
+	/*position: absolute;*/
 	/*margin-top: 50px;*/
 }
 .orange-mason{
@@ -25,3 +25,45 @@ body{
 	width: 250px;
 	background-color: #EEE;
 }
+.grid{
+	margin-top: 50px;
+	margin-left: 260px;
+	/*margin-right: 160px;*/
+	display: flex;
+	/*flex-direction: column;*/
+	flex-flow: column wrap;
+	max-width: 800px;
+	height: 1300px;
+
+		/*position: relative;*/
+
+}
+.grid-item{
+	width: 25%;
+	margin: 10px 10px;
+	/*height: auto;*/
+	overflow: hidden;
+
+}
+.img-box{
+	width: 100%;
+	height: auto;
+}
+.menu-box-item{
+	display: block;
+}
+@media (max-width: 1000px) {
+.orange-mason, .menu-box{
+/*width: 80vw;	*/
+/*position: relative;;*/
+} 
+.grid-item{
+/*width: 50%;	*/
+}
+.grid{
+/*position: absolute;*/
+
+/*height: 300vh;*/
+
+	}
+}	
