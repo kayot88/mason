@@ -1,0 +1,27 @@
+body{
+	background-color: #ccc;
+}
+.wrapper{
+	width: 80%;
+	margin: 0 auto;
+}
+.main-grid{
+	margin-top: 50px;
+	/*display: grid;*/
+}
+.aside-container{
+	position: fixed;
+	/*margin-top: 50px;*/
+}
+.orange-mason{
+	width: 250px;
+	height: 210px;
+	/*position: fixed;*/
+	background-color: #CC6733;
+	margin: 0 40px 10px 0;
+}
+.menu-box{
+	height: 260px;
+	width: 250px;
+	background-color: #EEE;
+}
